@@ -42,7 +42,9 @@ Implementieren Sie weiters eine Methode `printFizzBuzzSeries`, die ein _Array_ a
 Implementieren Sie die Übung _[Angabe: Noten Verteilung](UebungNotenVerteilung.pdf)_ **unter Zuhilfenahme von Methoden**. Machen Sie sich Gedanken, wie Sie die einzelnen Funktionalitäten sinnvoll aufteilen können.
 
 ## _Arrays Dedupen_
-Implementieren Sie die Übung _[Angabe: Duplikate Entfernen](UebungDuplikateEntfernen.pdf)_ **unter Zuhilfenahme von Methoden**. Erweitern Sie die Ausgabe am Schluss mithilfe einer zusätzlichen Methode, die ein _Array_ spiegelt (i.e. aus `{1, 2, 3}` wird `{3, 2, 1}`).
+Implementieren Sie die Übung _[Angabe: Duplikate Entfernen](UebungDuplikateEntfernen.pdf)_ **unter Zuhilfenahme von Methoden**. Erweitern Sie die Ausgabe am Schluss mithilfe von zwei zusätzlichen Methoden:
+* Eine Methode soll das _Array_ spiegeln (i.e. aus `{1, 2, 3}` wird `{3, 2, 1}`).
+* Eine Methode soll das _Array_ sortieren (Sortier-Algorithmus frei wählbar).
 
 ## _Sieb Des Eratosthenes_ *
 Implementieren Sie das _Sieb des Eratosthenes_ zur Ermittlung aller Primzahlen bis zu einer bestimmten Obergrenze. Orienteren Sie sich an folgender Angabe und Animation, verwenden Sie Hilfsmethoden wo diese sinnvoll sind.
