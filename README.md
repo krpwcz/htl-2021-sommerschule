@@ -39,6 +39,9 @@ Implementieren Sie weiters eine Methode `printFizzBuzzSeries`, die ein _Array_ a
 ## _Arrays Dedupen_
 Implementieren Sie die Übung _[Angabe: Duplikate Entfernen](UebungDuplikateEntfernen.pdf)_ **unter Zuhilfenahme von Methoden**. Erweitern Sie die Ausgabe am Schluss mithilfe einer zusätzlichen Methode, die ein _Array_ spiegelt (i.e. aus `{1, 2, 3}` wird `{3, 2, 1}`).
 
+## Sieb Des Eratosthenes
+![](images/AnimationEratosthenes.gif)
+
 Fahrplan:
 * Noten-Statistik mit Methoden
 * Sieb des Erasthotenes
