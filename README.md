@@ -22,12 +22,12 @@ Implementieren Sie eine Methode `isPrime`, die überprüft ob eine übergebene Z
 [Angabe: Primzahlen-Berechnung](Primzahlen.pdf)
 
 ## Kosinus-Berechnung mittels _Taylor_-Reihe *
-Implementieren Sie eine Methode `calculateCosineByTaylor` die den Kosinus mithilfer einer _Taylor_-Reihe annähert. Orientieren Sie sich dabei an der folgenden Angabe:
+Implementieren Sie eine Methode `calculateCosineByTaylor` die den Kosinus mithilfe einer _Taylor_-Reihe annähert. Orientieren Sie sich dabei an der folgenden Angabe:
 
 [Angabe: Kosinus mittels _Taylor_-Reihe](UebungKosinusTaylor.pdf)
 
 ## _FizzBuzz_ Als _Array_ *
-Implementieren Sie eine Methode `createFizzBuzzSeries`, das eine Länge akzeptiert und ein _Array_ mit Ganzzahlen erzeugt und zurückgibt. Die Zahlen sollen dabei von 1 bis zur angegeben Länge gehen und gemäß der folgenden Regeln ggf. ersetzt werden:
+Implementieren Sie eine Methode `createFizzBuzzSeries`, die eine Länge akzeptiert und ein _Array_ mit Ganzzahlen erzeugt und zurückgibt. Die Zahlen sollen dabei von 1 bis zur angegeben Länge gehen und gemäß der folgenden Regeln ggf. ersetzt werden:
 * Ist die Zahl durch 3 teilbar, so soll `-3` gespeichert werden.
 * Ist die Zahl durch 5 teilbar, so soll `-5` gespeichert werden.
 * Ist die Zahl durch 3 **und** 5 teilbar, so soll `0` gespeichert werden.
