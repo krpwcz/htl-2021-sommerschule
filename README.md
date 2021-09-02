@@ -1,6 +1,8 @@
 # SEW I - Sommerschule 2021
 
-## _Aufwärmen_ mit _LeonDing_
+(Neue Aufgaben sind mit * markiert.)
+
+## _Aufwärmen_ mit _LeonDing_ *
 
 Implementieren Sie eine Methode `convertToLeonDing`, die eine Ganzzahl akzeptiert und gemäß der folgenden Regeln einen `String` zurückgibt:
 * Ist die Zahl durch 5 teilbar, so soll `"Leon"` zurückgegeben werden.
@@ -14,17 +16,17 @@ Implementieren Sie nun eine Methode `printLeonDing` die eine Ganzzahl zur Angabe
 1 2 3 4 Leon 6 Ding 8 9 Leon 11 12 13 Ding Leon 16 17 18 19 Leon Ding 22 23 24 Sommerschule 26 27 Ding 29 Leon
 ```
 
-## Primzahlen-Berechnung
+## Primzahlen-Berechnung *
 Implementieren Sie eine Methode `isPrime`, die überprüft ob eine übergebene Zahl eine Primzahl ist. Orientieren Sie sich dabei an folgender Angabe:
 
 [Angabe: Primzahlen-Berechnung](Primzahlen.pdf)
 
-## Kosinus-Berechnung mittels _Taylor_-Reihe
+## Kosinus-Berechnung mittels _Taylor_-Reihe *
 Implementieren Sie eine Methode `calculateCosineByTaylor` die den Kosinus mithilfer einer _Taylor_-Reihe annähert. Orientieren Sie sich dabei an der folgenden Angabe:
 
 [Angabe: Kosinus mittels _Taylor_-Reihe](UebungKosinusTaylor.pdf)
 
-## _FizzBuzz_ Als _Array_
+## _FizzBuzz_ Als _Array_ *
 Implementieren Sie eine Methode `createFizzBuzzSeries`, das eine Länge akzeptiert und ein _Array_ mit Ganzzahlen erzeugt und zurückgibt. Die Zahlen sollen dabei von 1 bis zur angegeben Länge gehen und gemäß der folgenden Regeln ggf. ersetzt werden:
 * Ist die Zahl durch 3 teilbar, so soll `-3` gespeichert werden.
 * Ist die Zahl durch 5 teilbar, so soll `-5` gespeichert werden.
@@ -36,20 +38,30 @@ Für die Länge 20 würde so folgendes _Array_ entstehen:
 
 Implementieren Sie weiters eine Methode `printFizzBuzzSeries`, die ein _Array_ aus Ganzzahlen akzeptiert und dieses wie im obigen Beispiel ausgibt.
 
+## _Noten Verteilung_
+Implementieren Sie die Übung _[Angabe: Noten Verteilung](UebungNotenVerteilung.pdf)_ **unter Zuhilfenahme von Methoden**. Machen Sie sich Gedanken, wie Sie die einzelnen Funktionalitäten sinnvoll aufteilen können.
+
 ## _Arrays Dedupen_
 Implementieren Sie die Übung _[Angabe: Duplikate Entfernen](UebungDuplikateEntfernen.pdf)_ **unter Zuhilfenahme von Methoden**. Erweitern Sie die Ausgabe am Schluss mithilfe einer zusätzlichen Methode, die ein _Array_ spiegelt (i.e. aus `{1, 2, 3}` wird `{3, 2, 1}`).
 
-## Sieb Des Eratosthenes
+## _Sieb Des Eratosthenes_ *
+Implementieren Sie das _Sieb des Eratosthenes_ zur Ermittlung aller Primzahlen bis zu einer bestimmten Obergrenze. Orienteren Sie sich an folgender Angabe und Animation, verwenden Sie Hilfsmethoden wo diese sinnvoll sind.
+
+[Angabe: _Sieb Des Eratosthenes_](AngabeErathostenes.pdf)
+
 ![](images/AnimationEratosthenes.gif)
 
-Fahrplan:
-* Noten-Statistik mit Methoden
-* Sieb des Erasthotenes
-* Anagramm-Check
-* Sort Animals
+## Schnittmenge von _Strings_
+Implementieren Sie die Übung _[Angabe: Schnittmenge von Zeichenketten](UebungStringIntersection.pdf)_ **unter Zuhilfenahme von Methoden**.
 
-* Wort-Statistik
-* Schnittmenge
+## Wort-Statistik
+Implementieren Sie die Übung _[Angabe: Wort-Statistik](UebungWortStatistik.pdf)_.
 
-* Rate-Spiel?
-* Prüfzahlenberechnung
+## Wort-Rate-Spiel *
+Implementieren Sie die Übung _[Angabe: Wort-Rate-Spiel](UebungWordGuessingGame.pdf)_ **unter Zuhilfenahme von Methoden**.
+
+## Prüfzahlenberechnungen
+Implementeren Sie die Übungen _[Angabe: Sozialversicherungsnummer-Prüfung](UebungSvnrPruefer.pdf)_ und _[Angabe: Kreditkartennummer-Prüfung](UebungCreditCardChecker.pdf)_.
+
+## TODO: Anagramm-Checker
+Idee: String in Char-Array umwandeln, sortieren und dann vergleichen.
