@@ -65,5 +65,5 @@ Implementieren Sie die Übung _[Angabe: Wort-Rate-Spiel](UebungWordGuessingGame.
 ## Prüfzahlenberechnungen
 Implementeren Sie die Übungen _[Angabe: Sozialversicherungsnummer-Prüfung](UebungSvnrPruefer.pdf)_ und _[Angabe: Kreditkartennummer-Prüfung](UebungCreditCardChecker.pdf)_.
 
-## TODO: Anagramm-Checker
-Idee: String in Char-Array umwandeln, sortieren und dann vergleichen.
+## Anagramm-Checker *
+Implementieren Sie die Übung _[Übung: Anagramm-Checker](UebungAnagrammCheckerSortiert.pdf)_.
