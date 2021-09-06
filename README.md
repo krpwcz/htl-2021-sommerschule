@@ -10,10 +10,10 @@ Implementieren Sie eine Methode `convertToLeonDing`, die eine Ganzzahl akzeptier
 * Ist die Zahl durch 5 **und** 7 teilbar, so soll `"Sommerschule"` zurückgegeben werden.
 * Ansonsten soll einfach die Zahl zurückgegeben werden.
 
-Implementieren Sie nun eine Methode `printLeonDing` die eine Ganzzahl zur Angabe der Länge akzeptiert und folgenden Output (beispielsweise für die Länge 30) erzeugt:
+Implementieren Sie nun eine Methode `printLeonDing` die eine Ganzzahl zur Angabe der Länge akzeptiert und folgenden Output (beispielsweise für die Länge 40) erzeugt:
 
 ```
-1 2 3 4 Leon 6 Ding 8 9 Leon 11 12 13 Ding Leon 16 17 18 19 Leon Ding 22 23 24 Sommerschule 26 27 Ding 29 Leon
+1 2 3 4 Leon 6 Ding 8 9 Leon 11 12 13 Ding Leon 16 17 18 19 Leon Ding 22 23 24 Leon 26 27 Ding 29 Leon 31 32 33 34 Sommerschule 36 37 38 39 Leon
 ```
 
 ## Primzahlen-Berechnung *
