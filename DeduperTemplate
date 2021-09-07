@@ -1,0 +1,30 @@
+package at.htlleonding.sew;
+
+public class ArrayDeduperMethods {
+    public static void main(String[] args) {
+        int[] numbers = readNumbers(10);
+
+        System.out.print("The original array: ");
+        printNumbers(numbers);
+
+        dedupeNumbers(numbers);
+
+        System.out.print("The deduped array: ");
+        printNumbers(numbers);
+
+        condenseNumbers(numbers);
+
+        System.out.print("The condensed, deduped array: ");
+        printNumbers(numbers);
+
+        mirrorNumbers(numbers);
+
+        System.out.print("The condensed, deduped, mirrored array: ");
+        printNumbers(numbers);
+
+        sortNumbers(numbers);
+
+        System.out.print("The sorted array: ");
+        printNumbers(numbers);
+    }
+}
